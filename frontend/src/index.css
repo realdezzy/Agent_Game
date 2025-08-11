@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure body doesn't scroll while the game canvas is active */
+body {
+  @apply overflow-hidden;
+}
